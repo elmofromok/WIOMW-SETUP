@@ -1,0 +1,85 @@
+// Site Styles for Who Is On My WiFi
+
+// Using a cool tiny framework called Skeleton for this project.
+// More Info at -->  http://getskeleton.com/
+@import "normalize.css";
+@import "skeleton.css";
+
+
+  /*  Background Color and Gradient*/
+  html {
+    height: 100%;
+  }
+  body {
+    height: 100%;
+    color: rgb(255, 255, 255);
+    background:  rgb(7, 0, 103);
+    background: -webkit-linear-gradient(109deg, rgb(7, 0, 103) 0%, rgb(41, 60, 146) 100%) rgb(255, 255, 255);
+    background: -moz-linear-gradient(109deg, rgb(7, 0, 103) 0%, rgb(41, 60, 146) 100%) rgb(255, 255, 255);
+    background: -o-linear-gradient(109deg, rgb(7, 0, 103) 0%, rgb(41, 60, 146) 100%) rgb(255, 255, 255);
+    background: -ms-linear-gradient(109deg, rgb(7, 0, 103) 0%, rgb(41, 60, 146) 100%) rgb(255, 255, 255);
+    background: linear-gradient(341deg, rgb(7, 0, 103) 0%, rgb(41, 60, 146) 100%) rgb(255, 255, 255);
+  }
+
+
+// PAGE HEADERS
+.header-row {
+  width: 100%;
+  margin: 0 0 2rem;
+  padding: 0;
+  clear: both;
+  background-color:#0E1E4D;
+}
+
+.header-row h1{
+  margin: 0;
+  padding: .2em 0;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+  letter-spacing: 1px;
+  font-size: 1.8em;
+  font-weight: 100;
+  line-height: 1.5;
+  color: rgb(255, 255, 255);
+  white-space: nowrap;
+  em.clean-underline{
+    text-shadow: 3px 0 #0E1E4D, 1px 0 #0E1E4D, -1px 0 #0E1E4D, -2px 0 #0E1E4D;
+  }
+}
+
+
+// FORMS
+legend{
+  font-size: 1.4em;
+  line-height: 1.4em;
+  font-weight: 200;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+}
+
+// BUTTONS
+button.button-primary{
+  background: #1C3C9B;
+  border:none;
+  &:hover,
+  &:active{
+    background: lighten(#1C3C9B, 10%);
+    border:none;
+  }
+}
+
+
+// UTILITIES
+
+
+  /*  A Cleaner Underline
+    -- based on  http://www.acusti.ca/blog/2014/11/28/towards-a-more-perfect-link-underline
+  */
+  .clean-underline {
+    color: #fff;
+    text-decoration: none;
+    background: -webkit-linear-gradient(top, transparent 49%, #858585 50%) repeat-x;
+    background: linear-gradient(to bottom, transparent 49%, #858585 50%) repeat-x;
+    background-size: 1px 1px;
+    background-position: 0 95%;
+    text-shadow: 3px 0 rgb(41, 60, 146), 1px 0 rgb(41, 60, 146), -1px 0 rgb(41, 60, 146), -2px 0 rgb(41, 60, 146);
+  }

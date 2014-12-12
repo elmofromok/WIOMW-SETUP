@@ -1,0 +1,135 @@
+
+/* BODY AND  LAYOUT STUFF  */
+
+  /*  Background Color and Gradient*/
+  body {
+    height: 100%;
+    background:  rgb(7, 0, 103);
+    background: -webkit-linear-gradient(109deg, rgb(7, 0, 103) 0%, rgb(41, 60, 146) 100%) rgb(255, 255, 255);
+    background: -moz-linear-gradient(109deg, rgb(7, 0, 103) 0%, rgb(41, 60, 146) 100%) rgb(255, 255, 255);
+    background: -o-linear-gradient(109deg, rgb(7, 0, 103) 0%, rgb(41, 60, 146) 100%) rgb(255, 255, 255);
+    background: -ms-linear-gradient(109deg, rgb(7, 0, 103) 0%, rgb(41, 60, 146) 100%) rgb(255, 255, 255);
+    background: linear-gradient(341deg, rgb(7, 0, 103) 0%, rgb(41, 60, 146) 100%) rgb(255, 255, 255);
+    color: rgb(255, 255, 255);
+  }
+
+  body>header {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0.417em;
+    clear: both;
+    background-color: rgba(7, 2, 99, 0.38);
+    text-align: center;
+  }
+  body>header h1{
+    width: 90%;
+    min-width: 150px;
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+  }
+
+
+
+
+/*TYPOGRAPHY*/
+
+  html {
+    font-family: Roboto;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.38;
+  }
+
+  h1 {
+    margin: 0;
+    padding: 0;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    font-size: 1.4rem;
+    font-weight: 100;
+    line-height: 1.5;
+    color: rgb(255, 255, 255);
+    white-space: nowrap;
+  }
+
+  /*  A Cleaner Underline
+  -- based on  http://www.acusti.ca/blog/2014/11/28/towards-a-more-perfect-link-underline
+  */
+  .clean-underline {
+    color: #fff;
+    text-decoration: none;
+    background: -webkit-linear-gradient(top, transparent 49%, #858585 50%) repeat-x;
+    background: linear-gradient(to bottom, transparent 49%, #858585 50%) repeat-x;
+    background-size: 1px 1px;
+    background-position: 0 95%;
+    text-shadow: 3px 0 rgb(41, 60, 146), 1px 0 rgb(41, 60, 146), -1px 0 rgb(41, 60, 146), -2px 0 rgb(41, 60, 146);
+  }
+
+
+
+/*FORM ELEMENTS*/
+
+  form {
+    width: 90%;
+    min-width: 150px;
+    max-width: 600px;
+    margin: 2rem auto;
+  }
+  input {
+    display: block;
+    float: left;
+    width: 252px;
+    height: 2.55em;
+    padding: 0 0.5em;
+    border-radius: 0.25em;
+    background-color: rgb(242, 242, 242);
+    font-size: 0.833rem;
+    font-weight: 400;
+    line-height: 1.38;
+    letter-spacing: 1px;
+    color: rgb(0, 0, 0);
+  }
+  button {
+    display: block;
+    float: left;
+    clear: both;
+    width: 252px;
+    height: 2.333em;
+    margin-top: 1.333em;
+    border-radius: 0.208em;
+    background-color: rgb(21, 16, 197);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+    font-size: 1rem;
+    line-height: 1.38;
+    text-align: center;
+    letter-spacing: 1px;
+    color: rgb(255, 255, 255);
+  }
+
+  button:hover {
+    background-color: rgb(34, 29, 198);
+    text-shadow: 1px 1px 0 rgba(0, 0, 0, 0.5);
+  }
+
+
+
+
+.commandBlock{
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  letter-spacing: 1px;
+  word-spacing: 1px;
+  margin: 1rem auto;
+  width: 90%;
+  min-width: 150px;
+  max-width: 600px;
+}
+.instructionText{
+  margin-top: 1rem;
+  color:#A0ACE4;
+  font-size: .9rem;
+  line-height: 1rem;
+  display: block;
+  font-style: italic;
+  text-shadow: 1px 1px 0 #121A40;
+}
